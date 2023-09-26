@@ -9,6 +9,9 @@
     align-items: center;
     width: auto;
     height: 100px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
 }
 
 h1, h2 {
@@ -49,6 +52,7 @@ a{
     display: flex;
     align-items: center;
     background-color: #d39088;
+    border-radius: 5px;
 }
 
 .Card div {
@@ -71,4 +75,54 @@ a{
 img {
     width: 450px;
     height: 570px;
+}
+
+.curriculo {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 100%; 
+    min-height: 100vh; 
+    padding: 10px; 
+  }
+  
+  
+  .curriculo div {
+    max-width: 650px;
+    width: 100%; 
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  
+  .experience {
+    background-color: aquamarine ;
+  }
+  
+  .education {
+    background-color: #d39088;
+  }
+  
+  .hardskllis {
+    background-color: #f0ddb5;
+  }
+
+.contato {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao{
+    background-color: #e19563;
+}
+
+footer{
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

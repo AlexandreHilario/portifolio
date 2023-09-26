@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className='header'>
         <div>
-          <h1>Alexandre Vitor</h1>
+          <a href="#container" alt="home"><h1>Alexandre Vitor</h1></a>
           <h2>Software Engineer</h2>
         </div>
 
@@ -25,7 +25,7 @@ function App() {
           </nav>
         </div>
       </div>
-      <div className="container">
+      <div id="container" className="container">
         <div className="Card">
           <img className="image" src={image} alt="foto de perfil"></img>
           <div>
