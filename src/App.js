@@ -1,4 +1,4 @@
-import image from "./Assets/Img.jpg"
+import image from "./assets/Img.jpg"
 import './App.css';
 
 
