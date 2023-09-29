@@ -1,17 +1,16 @@
-*{
+body{
     margin: 0;
+    font-family: sans-serif;
+    background-color: azure;
 }
 
 .header {
-    background-color: #9fb39b;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: auto;
     height: 100px;
-    z-index: 999;
-    position: sticky;
-    top: 0;
+    
 }
 
 h1, h2 {
