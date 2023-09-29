@@ -1,15 +1,16 @@
 import React from "react";
 import '../../App.css'
+import { AreaHeader } from './styled';
+
 
 function Header() {
     return (
-        <div className='header'>
-            <div>
-                <a href="#container" alt="home"><h1>Alexandre Vitor</h1></a>
-                <h2>Software Engineer</h2>
-            </div>
-
-            <div>
+        <AreaHeader>
+            <div className='header'>
+                <div className="logo">
+                    <a href="#container" alt="home"><h1>Alexandre Vitor</h1></a>
+                    <h2>Software Engineer</h2>
+                </div>
                 <nav>
                     <ul>
                         <li><a href="#curriculo" alt="link do currículo">Currículo</a></li>
@@ -18,7 +19,7 @@ function Header() {
                     </ul>
                 </nav>
             </div>
-        </div>
+        </AreaHeader>
     );
 }
 
