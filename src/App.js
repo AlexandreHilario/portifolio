@@ -1,7 +1,7 @@
 import image from "./assets/Img.jpg"
 import './App.css';
-
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -9,22 +9,11 @@ function App() {
 
   return (
     <div className="App">
-      <div className='header'>
-        <div>
-          <a href="#container" alt="home"><h1>Alexandre Vitor</h1></a>
-          <h2>Software Engineer</h2>
-        </div>
+      <>
 
-        <div>
-          <nav>
-            <ul>
-              <li><a href="#curriculo" alt="link do currículo">Currículo</a></li>
-              <li><a href="#projetos" alt="link dos projetos">Projetos</a></li>
-              <li><a href="#contato" alt="link do contato">Contato</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+          <Header />
+
+      </>
       <div id="container" className="container">
         <div className="Card">
           <img className="image" src={image} alt="foto de perfil"></img>
@@ -117,9 +106,9 @@ function App() {
           <h4>xandibackup@gmail.com</h4>
         </div>
       </section>
-      <footer>
-        <p>© 2023 por Alexandre Vitor</p>
-      </footer>
+      <>
+        <Footer />
+      </>
     </div>
   );
 }
