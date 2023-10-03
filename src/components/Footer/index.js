@@ -1,13 +1,15 @@
 import React from "react";
 import '../../App.css'
-
+import { AreaFooter } from './styled'
 
 function Footer() {
 
     return (
-        <footer>
-            <p>© 2023 por Alexandre Vitor</p>
-        </footer>
+        <AreaFooter>
+            <footer>
+                <p>© 2023 por Alexandre Vitor</p>
+            </footer>
+        </AreaFooter>
     );
 }
 
